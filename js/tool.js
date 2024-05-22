@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("https://realtime-whiteboard-5bot.onrender.com");
+const socket = io.connect("https://realtime-whiteboard-beta.vercel.app/");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
